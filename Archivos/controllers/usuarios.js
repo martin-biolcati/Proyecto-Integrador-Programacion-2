@@ -3,6 +3,11 @@ const controlador = {
         res.render(
             'register'
         )
+    },
+    login: function(req,res){
+        res.render(
+            'login'
+        )
     }
 }
 
