@@ -7,10 +7,30 @@
             <h2 class="products-title">Registrate</h2>
         </div>
         <!-- Show the "ultimos" products -->
-        <h2 class="col-12"> <i>///////////////////////////////////////// <br> Acá va el formulario para agregar prodcutos al catálogo. <br>
-        Debe cumplir con los puntos de la consigna y ser coherente con la tabla de la base de datos. <br>
-        Eliminen estás líneas y coloquen el formulario. <br>
-        Recuerden todo lo que necesita tanto la etiqueta form como los campos input para operar correctamtente</i> <br>
-        ////////////////
-        </h2>
+            <form action="" method="GET">
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" value="">
+                </div>
+                    <div>
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" name="usuario" value="">
+                    </div>
+                    <div>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" name="contraseña" value="">
+                    </div>
+                    <div>
+                        <label for="fecha">Fecha de nacimiento:</label>
+                        <input type="date" name="fecha" value="">
+                    </div>
+                    <div>
+                        <label for="documento">Nro de documento:</label>
+                        <input type="number" name="documento" value="">
+                    </div>
+                    <div>
+                        <label for="foto">Foto de perfil:</label>
+                        <input type="text" name="foto" value="">
+                    </div>
+                </form>
 <%- include ('./partials/footer')  %>
