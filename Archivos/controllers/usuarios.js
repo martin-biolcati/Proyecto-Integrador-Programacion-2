@@ -8,6 +8,11 @@ const controlador = {
         res.render(
             'login'
         )
+    },
+    regresar: function(req,res){
+        res.render(
+            'index'
+        )
     }
 }
 
