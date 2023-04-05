@@ -18,6 +18,11 @@ const controlador = {
         res.render(
             'index'
         )
+    },
+    perfil: function(req,res){
+        res.render(
+            'profile'
+        )
     }
 }
 
