@@ -13,6 +13,11 @@ const controlador = {
         res.render(
             'index'
         )
+    },
+    logo: function(req,res){
+        res.render(
+            'index'
+        )
     }
 }
 
