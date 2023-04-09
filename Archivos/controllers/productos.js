@@ -3,7 +3,7 @@ const controladores={
         res.render(
             'product-add'
         )
-    }
+    },
 }
 
 module.exports = controladores;
