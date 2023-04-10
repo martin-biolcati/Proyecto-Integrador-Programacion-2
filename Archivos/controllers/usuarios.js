@@ -1,27 +1,27 @@
 const controlador = {
     register: function(req,res){
         res.render(
-            'register'
+            'register', { usuarioLogueado: false,}
         )
     },
     login: function(req,res){
         res.render(
-            'login'
+            'login',{ usuarioLogueado: false,}
         )
     },
     regresar: function(req,res){
         res.render(
-            'index'
+            'index', { usuarioLogueado: false,}
         )
     },
     logo: function(req,res){
         res.render(
-            'index'
+            'index', { usuarioLogueado: false,}
         )
     },
     perfil: function(req,res){
         res.render(
-            'profile'
+            'profile', { usuarioLogueado: true,}
         )
     }
 }
