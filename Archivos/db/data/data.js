@@ -2,65 +2,66 @@
     productos: [
         {
            id:1,
-           producto: "Porsche 911 GT3",
+           nombre: "Porsche 911 GT3",
            anio: 2022,
            descripcion: 'Auto usado por 1 anio en muy buen estado.',
-           image: '/images/products/Porsche 911 gt3.webp'
-        },{
+           image: '/images/products/porsche_911.jpg',
+        },{   
             id:2,
-            producto: "LAMBORGHINI AVENTADOR SVJ ",
+            nombre: "LAMBORGHINI AVENTADOR SVJ ",
             anio: 2022,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/LAMBORGHINI AVENTADOR SVJ.jpg'
+            image: '/images/products/lambo.jpg'
         },{
             id:3,
-            producto: "FERRARI 812 COMPETIZONE",
+            nombre: "FERRARI 812 COMPETIZONE",
             anio: 2023,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/Ferrari 812 competizione.jpg.webp'
+            image: '/images/products/ferrari_812_competizione.jpg'
         },{
             id:4,
-            producto: "AUDI RSQ8",
+            nombre: "AUDI RSQ8",
             anio: 2022,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/audi rsq8.jpg'
+            image: '/images/products/audi_rsq8.jpg'
         },{
             id:5,
-            producto: "FORD F-150 RAPTOR ",
+            nombre: "FORD F-150 RAPTOR ",
             anio: 2020,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/Ford f-150 raptor.jpg'
+            image: '/images/products/ford_raptor.jpg'
         },{
             id:6,
-            producto: "BMW M8",
+            nombre: "BMW M8",
             anio: 2021,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/M8.webp'
+            image: '/images/products/m8.jpg'
         },{
             id:7,
-            producto: "LOTUS EMIRA",
+            nombre: "LOTUS EMIRA",
             anio: 2023,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/lOTUS EMIRA.jpg'
+            image: '/images/products/lotus.jpg'
         },{
             id:8,
-            producto: "ROLLS ROYCE PHANTOM",
+            nombre: "ROLLS ROYCE PHANTOM",
             anio: 2023,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/Phantom.jpg'
+            image: '/images/products/phantom.jpg'
         },{
             id:9,
-            producto: "PAGANI HUAYRA",
+            nombre: "PAGANI HUAYRA",
             anio: 2022,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/pagani huayra.jpg'
+            image: '/images/products/pagani_huayra.jpg'
         },{
             id:10,
-            producto: "Lamborghini Urus",
+            nombre: "Lamborghini Urus",
             anio: 2022,
             descripcion: 'Auto sin usar en perfectas condiciones.',
-            image: '/images/products/lamborghini urus.jpg'
+            image: '/images/products/lamborghini_urus.jpg'
         }
                 
             ]
         }
+module.exports = data

@@ -4,7 +4,7 @@
 
 /*====== Variables ======*/
 :root {
-  --yellow: #EAC926;
+  --yellow: rgb(0, 0, 0);
   --dark-blue: #03264C;
   --light-blue: #1259c3;
   --gray: #666666;
@@ -12,7 +12,10 @@
   --green: #39b54a;
   --base-font-family: 'Roboto', sans-serif
 }
-
+.logo{
+  width: 120px;
+  height: 50px;
+}
 
 /*====== Basics ======*/
 * {
@@ -80,6 +83,7 @@ hr {
   font-size: 1.5em;
   margin-top: 20px;
   text-align: center;
+  color: white
 }
 
 .search-form {
@@ -125,6 +129,7 @@ hr {
 .main-navbar {
   margin-top: 20px;
   display: none;
+  color: white
 }
 
 .left-navbar,
