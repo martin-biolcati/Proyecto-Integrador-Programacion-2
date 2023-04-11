@@ -6,11 +6,15 @@ const controladores={
         )
     },
     productos: function(req,res){
-        console.log(data);
         res.render(
             'index',{ usuarioLogueado: false, productos: data.productos}
         )
     },
+    descripcion: function(req,res){
+        res.render(
+            'product', { usuarioLogueado: true,}
+        )
+    }
 }
 
 module.exports = controladores;
