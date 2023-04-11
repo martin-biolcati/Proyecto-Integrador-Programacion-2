@@ -32,7 +32,7 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  background-color: black;
 }
 
 ul,
@@ -177,7 +177,7 @@ hr {
 .products-title {
   font-size: 2.4em;
   font-weight: 400;
-  color: var(--gray);
+  color: goldenrod;
 }
 
 .product-box {
@@ -265,7 +265,7 @@ hr {
 
 /*====== Footer ======*/
 .main-footer {
-  background-color: #ffffff;
+  background-color: rgb(44, 41, 41);
   padding: 20px 0;
   margin-top: 80px;
 }
@@ -275,18 +275,18 @@ hr {
 }
 
 .footer-data i {
-  color: var(--light-blue);
+  color: goldenrod;
   font-size: 3.5em;
 }
 
 .footer-data h2 {
-  color: var(--gray);
+  color: whitesmoke;
   font-size: 2.4em;
   font-weight: 400;
 }
 
 .footer-data p {
-  color: var(--gray);
+  color: whitesmoke;
   font-size: 1.5em;
   font-weight: 300;
 }

@@ -12,7 +12,12 @@ const controladores={
     },
     descripcion: function(req,res){
         res.render(
-            'product', { usuarioLogueado: true,}
+            'product', { 
+                usuarioLogueado: true,
+                productos: data.productos,
+                usuario: data.usuario,
+                comentarios: data.comentarios
+            }
         )
     }
 }
