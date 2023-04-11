@@ -5,7 +5,7 @@
                 nombre:'nelson', 
                 email:'nelson@gmail.com', 
                 password:'pepegrillo',
-                foto_de_perfil: 'images/',
+                foto_de_perfil: 'https://via.placeholder.com/150',
                 dni: 9435223,
                 fecha_de_nacimiento: '2002-02-13'
             },{
@@ -13,7 +13,7 @@
                 nombre:'martin', 
                 email:'martin@gmail.com', 
                 password:'martin123',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 53432425,
                 fecha_de_nacimiento: '2003-04-22'
             },{
@@ -21,7 +21,7 @@
                 nombre:'bautista', 
                 email:'bauti@gmail.com', 
                 password:'bauti2345',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 3445634,
                 fecha_de_nacimiento: '2003-11-11'
             },{
@@ -29,7 +29,7 @@
                 nombre:'juan', 
                 email:'juancho@gmail.com', 
                 password:'juanchito',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 45423634,
                 fecha_de_nacimiento: '2010-02-23'
             },{
@@ -37,7 +37,7 @@
                 nombre:'pepe', 
                 email:'pepito@gmail.com', 
                 password:'pepe123',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 9453456,
                 fecha_de_nacimiento: '2001-03-30'
             },{
@@ -45,7 +45,7 @@
                 nombre:'ana', 
                 email:'anita@gmail.com', 
                 password:'anita234',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 4352328,
                 fecha_de_nacimiento: '1993-01-11'
             },{
@@ -53,7 +53,7 @@
                 nombre:'andrea', 
                 email:'andrea@gmail.com', 
                 password:'andrea7388',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 4656734,
                 fecha_de_nacimiento: '1982-02-04'
             },{
@@ -61,7 +61,7 @@
                 nombre:'manuel', 
                 email:'manuel@gmail.com', 
                 password:'manuel2003',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 9456345,
                 fecha_de_nacimiento: '2003-06-16'
             },{
@@ -69,7 +69,7 @@
                 nombre:'sofia', 
                 email:'sofia@gmail.com', 
                 password:'sofi939',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 25568540,
                 fecha_de_nacimiento: '2000-11-11'
             },{ 
@@ -77,7 +77,7 @@
                 nombre:'gonzalo', 
                 email:'gonza@gmail.com', 
                 password:'gonzalito23',
-                foto_de_perfil:'images/',
+                foto_de_perfil:'https://via.placeholder.com/150',
                 dni: 58643205,
                 fecha_de_nacimiento: '2004-05-29'
             }
@@ -146,60 +146,60 @@
             }
                     
                 ],
-        comentarios: [
+         comentarios: [
             {
                 id:1,
-                nombre: '',
+                nombre: 'juancito aguirre',
                 comentario: 'Muy lindo auto',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              },
              {
                 id:2,
-                nombre: '',
+                nombre: 'pepito fresco',
                 comentario: 'Le compre el auto a mi mama y le encanto. Muy recomendable.',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }, {
                 id:3,
-                nombre: '',
+                nombre: 'gaston gonzales',
                 comentario: 'Lo compraria pero tiene mucho uso.',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }, {
                 id:4,
-                nombre: '',
+                nombre: 'felipe dominguez',
                 comentario: 'Hermoso auto. Lo compraria pero es muy caro',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }, {
                 id:5,
-                nombre: '',
+                nombre: 'gonza lemoine',
                 comentario: 'Auto recomendable para conductores avanzados',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              },{
                 id:6,
-                nombre: '',
+                nombre: 'bautista giorgi',
                 comentario: 'Lo quiero!!',
-                imagen_de_perfil:''  
-             },
-             {
+                foto_de_perfil:'https://via.placeholder.com/150'  
+             },{
                 id:7,
-                nombre: '',
+                nombre: 'martin biolcati',
                 comentario: 'Lo compre pero no me convencio.',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }, {
                 id:8,
-                nombre: '',
+                nombre: 'tomas chaiman',
                 comentario: 'Genial su ingenieria',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }, {
                 id:9,
-                nombre: '',
+                nombre: 'delfina fernandez',
                 comentario: 'Me gustaria probarlo.',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }, {
                 id:10,
-                nombre: '',
+                nombre: 'osbaldo martinez',
                 comentario: 'Auto recomendable para familia.',
-                imagen_de_perfil:''  
+                foto_de_perfil:'https://via.placeholder.com/150'  
              }
+
         ]
         }
 module.exports = data
