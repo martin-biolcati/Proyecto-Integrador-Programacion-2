@@ -11,6 +11,7 @@ const controladores={
         )
     },
     descripcion: function(req,res){
+        
         res.render(
             'product', { 
                 usuarioLogueado: true,

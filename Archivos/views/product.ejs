@@ -1,13 +1,11 @@
 <%- include('./partials/head')  %>
 <%- include('./partials/header')  %>
-<!-- product detail -->
-<% for(let i=0; i<productos.length; i++){ %> 
 
 <div class="container products-wrapper">
     
     <div class="d-flex align-items-center">
          
-        <h2 class="products-title"><%= productos[i].nombre %></h2> 
+        <h2 class="products-title"><%= productos[0].nombre %></h2> 
         <p class="product-detail-description">
             <a href="product-add.html">Editar</a>
         </p>
@@ -16,14 +14,13 @@
     
         <div class="row">
             <article class="col-12 col-lg-8 product-detail-info">
-                <img src=<%= productos[i].image %> alt="" class="product-detail-img">
-                <p class="product-detail-description"><%= productos[i].descripcion %></p>
+                <img src=<%= productos[0].image %> alt="" class="product-detail-img">
+                <p class="product-detail-description"><%= productos[0].descripcion %></p>
             </article>
-            <% for(let i=0; i<usuario.length; i++){ %> 
-                <% for(let i=0; i<comentarios.length; i++){ %> 
-            <div class="col-12 col-lg-4">
-                
-                <section class="comments">
+                <div class="col-12 col-lg-4">
+                    
+                    <section class="comments">
+                    <% for(let i=0; i<4; i++){ %> 
                     <article>
                         <img src="https://via.placeholder.com/35" alt="">
                         <div class="data">
@@ -32,7 +29,7 @@
                             <%= comentarios[i].comentario %></p>
                         </div>
                     </article>
-                  
+                    <%}%>
                 </section>
                 <form class="form" action="" method="POST">
                     <input class="form-input" type="text" value="" placeholder="Agregar comentario">
@@ -40,12 +37,7 @@
                 </form>
                 <hr>
             </div>
-            <%}%>
-            <%}%>
         </div>
     </div>
-    <%}%>
 </div>
-
-<!-- /product detail -->
 <%- include('./partials/footer')  %>

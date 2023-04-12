@@ -6,7 +6,7 @@
 :root {
   --yellow: rgb(0, 0, 0);
   --dark-blue: #03264C;
-  --light-blue: #1259c3;
+  --light-blue: goldenrod;
   --gray: #666666;
   --light-gray: #ebebeb;
   --green: #39b54a;
@@ -72,6 +72,8 @@ hr {
 .main-header {
   padding: 15px 0;
   background-color: var(--yellow);
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
 }
 
 .main-header_home-link,
@@ -268,6 +270,7 @@ hr {
   background-color: rgb(44, 41, 41);
   padding: 20px 0;
   margin-top: 80px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer-data {
