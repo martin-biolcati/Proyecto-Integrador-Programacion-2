@@ -1,14 +1,13 @@
-<%- include('./partials/head.ejs') %>
-<%- include('./partials/header.ejs') %>
-
-<!-- Novedades -->
-<div class="container products-wrapper">
-    <div class="row">
-        <div class="col-12">
-            <h2 class="products-title">Registrate</h2>
-        </div>
-        <!-- Show the "ultimos" products -->
-            <form class= "datosUsuarios" action="" method="GET">
+<%- include('./partials/head')  %>
+<%- include('./partials/header')  %>
+	<!-- Novedades -->
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Editar mi perfil</h2>
+			</div>
+			<!-- Show the "ultimos" products -->
+			<form class= "datosUsuarios" action="" method="GET">
                 <div>
                     <label for="email">Email:</label>
                     <input type="email" name="email" value="">
@@ -33,4 +32,4 @@
                         <label for="imagen">Foto de perfil:</label>
                         <input type="file" name="imagen" value="">
                     </div>
-                <%- include('./partials/footer.ejs') %>
+<%- include('./partials/footer')  %>

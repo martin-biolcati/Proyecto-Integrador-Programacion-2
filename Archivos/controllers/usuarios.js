@@ -12,7 +12,18 @@ const controlador = {
     },
     perfil: function(req,res){
         res.render(
-            'profile', { usuarioLogueado: true,}
+            'profile', { 
+                usuarioLogueado: true,
+                productos: data.productos
+            }
+        )
+    },
+    perfilEdit: function(req,res){
+        res.render(
+            'editar', { 
+                usuarioLogueado: true,
+                productos: data.productos
+            }
         )
     }
 }

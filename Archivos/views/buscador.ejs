@@ -1,0 +1,34 @@
+<%- include('./partials/head')  %>
+<%- include('./partials/header')  %>
+<!-- Novedades -->
+<!-- Novedades -->
+<div class="container products-wrapper">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="products-title">Resultados de búsqueda</h2>
+        </div>
+        <!-- Show the "ultimos" products -->
+        <div class="container products-wrapper">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="products-title">Novedades</h2>
+                </div>
+                <% for(let i = 0; i<3; i++){ %>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <section class="product-box">
+                        <a href="/productos/descripcion">
+                            <figure class="product-box_image">
+                                <img src=<%= productos[i].image %> alt="foto de <%= productos[i].nombre %>">
+                            </figure>
+                            <article class="product-box_data">
+                                <h2><%= productos[i].nombre %></h2>
+                                <p><%= productos[i].descripcion %></p>
+                                <p>comentarios: </p>
+    
+                            </article>
+                        </a>
+                    </section>
+                    </div>
+                    <%}%>
+        </div>
+<%- include('./partials/footer')  %>

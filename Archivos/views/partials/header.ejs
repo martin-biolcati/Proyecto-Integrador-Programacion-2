@@ -10,7 +10,7 @@
 				</div>
 	
 				<div class="col-7 col-md-6">
-					<form action="search-results.html" method="GET" class="search-form">
+					<form action="/productos/encontraste" method="GET" class="search-form">
 						<input type="text" name="search" placeholder="Buscar productos, marcas y más" class="search-form_input">
 						<button type="submit" class="search-form_button"><i class="fas fa-search"></i></button>
 					</form>
@@ -30,7 +30,7 @@
 			<% if (usuarioLogueado === true) {%>
 			<nav class="main-navbar">
 				<ul class="left-navbar">
-					<li><a href="/productos/producto">Todos los productos</a></li>
+					<li><a href="/">Todos los productos</a></li>
 					<li><a href="/productos/productAdd">Cargar productos</a></li>
 				</ul>
 			
@@ -50,7 +50,7 @@
 			<%}  else {%>
 			<nav class="main-navbar">
 				<ul class="left-navbar">
-					<li><a href="/productos/producto">Todos los productos</a></li>
+					<li><a href="/">Todos los productos</a></li>
 				</ul>
 				<ul class="right-navbar">
 					<li>

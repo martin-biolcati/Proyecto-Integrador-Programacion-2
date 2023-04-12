@@ -1,5 +1,5 @@
  const data = {
-        usuario: [
+      usuario: [
             {
                 id: 1,
                 nombre:'nelson', 

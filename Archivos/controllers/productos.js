@@ -14,9 +14,18 @@ const controladores={
         res.render(
             'product', { 
                 usuarioLogueado: true,
+                id : data.id,
                 productos: data.productos,
                 usuario: data.usuario,
                 comentarios: data.comentarios
+            }
+        )
+    },
+    buscador: function(req,res){
+        res.render(
+            'buscador', { 
+                usuarioLogueado: true,
+                productos: data.productos,
             }
         )
     }
