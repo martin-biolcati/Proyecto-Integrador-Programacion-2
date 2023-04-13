@@ -87,7 +87,7 @@
                 id:1,
                 nombre: "PORSCHE 911 GT3",
                 fecha_de_carga: 2022,
-                descripcion: 'Auto usado por 1 anio en muy buen estado.',
+                descripcion: 'El auto cuenta con 5000km reales, service realizados siempre en concecionaria oficial. Digno para ver',
                 image: '/images/products/porsche_911.jpg',
             },{   
                 id:2,
@@ -149,7 +149,7 @@
          comentarios: [
             {
                 id:1,
-                nombre: 'juancito aguirre',
+                nombre: 'Juan Bautista Giorgi',
                 comentario: 'Muy lindo auto',
                 foto_de_perfil:'https://via.placeholder.com/150'  
              },

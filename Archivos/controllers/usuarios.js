@@ -14,7 +14,8 @@ const controlador = {
         res.render(
             'profile', { 
                 usuarioLogueado: true,
-                productos: data.productos
+                productos: data.productos,
+                comentarios: data.comentarios,
             }
         )
     },

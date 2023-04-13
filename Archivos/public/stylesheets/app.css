@@ -180,6 +180,7 @@ hr {
   font-size: 2.4em;
   font-weight: 400;
   color: goldenrod;
+  font-family: 'Hind', sans-serif;
 }
 
 .product-box {
@@ -188,6 +189,7 @@ hr {
   overflow: hidden;
   transition: 300ms;
   margin: 20px 0;
+  font-family: 'Hind', sans-serif;
 }
 
 .product-box a {
@@ -204,6 +206,7 @@ hr {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  font-family: 'Hind', sans-serif;
 }
 
 .product-box_data h2 {
@@ -407,6 +410,7 @@ hr {
 }
 .comments {
   padding: 30px 15px 15px 0;
+  font-family: 'Hind', sans-serif;
 }
 .comments article{
   margin-bottom: 7.5px;
@@ -430,6 +434,7 @@ hr {
 }
 .comments .user{
   font-size: 1.7em;
+  font-family: 'Hind', sans-serif;
 }
 
 /*====== Formularios ======*/
@@ -485,6 +490,8 @@ textarea.form-input {
 
 .datosUsuarios{
   color: white;
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
 }
 
 .btn{
