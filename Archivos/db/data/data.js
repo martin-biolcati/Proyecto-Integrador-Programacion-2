@@ -149,7 +149,7 @@
          comentarios: [
             {
                 id:1,
-                nombre: 'Juan Bautista Giorgi',
+                nombre: 'ariel azambu',
                 comentario: 'Muy lindo auto',
                 foto_de_perfil:'https://via.placeholder.com/150'  
              },
