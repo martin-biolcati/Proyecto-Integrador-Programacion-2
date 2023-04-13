@@ -2,7 +2,7 @@
       usuario: [
             {
                 id: 1,
-                nombre:'nelson', 
+                nombre:'Checo', 
                 email:'nelson@gmail.com', 
                 password:'pepegrillo',
                 foto_de_perfil: 'https://via.placeholder.com/150',
@@ -10,7 +10,7 @@
                 fecha_de_nacimiento: '2002-02-13'
             },{
                 id: 2, 
-                nombre:'martin', 
+                nombre:'Max', 
                 email:'martin@gmail.com', 
                 password:'martin123',
                 foto_de_perfil:'https://via.placeholder.com/150',
@@ -18,7 +18,7 @@
                 fecha_de_nacimiento: '2003-04-22'
             },{
                 id: 3, 
-                nombre:'bautista', 
+                nombre:'Lando', 
                 email:'bauti@gmail.com', 
                 password:'bauti2345',
                 foto_de_perfil:'https://via.placeholder.com/150',
@@ -26,7 +26,7 @@
                 fecha_de_nacimiento: '2003-11-11'
             },{
                 id: 4, 
-                nombre:'juan', 
+                nombre:'Hamilton', 
                 email:'juancho@gmail.com', 
                 password:'juanchito',
                 foto_de_perfil:'https://via.placeholder.com/150',
@@ -149,25 +149,25 @@
          comentarios: [
             {
                 id:1,
-                nombre: 'ariel azambu',
-                comentario: 'Muy lindo auto',
-                foto_de_perfil:'https://via.placeholder.com/150'  
+                nombre: 'Checo',
+                comentario: 'Llego a la sexta victoria seguro con ese',
+                foto_de_perfil:'/images/fotoPerfil.jpg'  
              },
              {
                 id:2,
-                nombre: 'pepito fresco',
-                comentario: 'Le compre el auto a mi mama y le encanto. Muy recomendable.',
-                foto_de_perfil:'https://via.placeholder.com/150'  
+                nombre: 'Max',
+                comentario: 'Muy lento, mejor el honda',
+                foto_de_perfil:'/images/maxV.jpg'  
              }, {
                 id:3,
-                nombre: 'gaston gonzales',
-                comentario: 'Lo compraria pero tiene mucho uso.',
-                foto_de_perfil:'https://via.placeholder.com/150'  
+                nombre: 'Lando',
+                comentario: 'Seguro va mas rapido que mi carreta de McLaren',
+                foto_de_perfil:'/images/lando.jpg'  
              }, {
                 id:4,
                 nombre: 'felipe dominguez',
-                comentario: 'Hermoso auto. Lo compraria pero es muy caro',
-                foto_de_perfil:'https://via.placeholder.com/150'  
+                comentario: 'Con este gano el octavo si o si',
+                foto_de_perfil:'/images/hamilton.jpg'  
              }, {
                 id:5,
                 nombre: 'gonza lemoine',

@@ -150,7 +150,14 @@ hr {
 .logout:hover{
   color: #1259c3;
 }
-
+.tengo_cuenta{
+  background-color: black;
+  color: white;
+}
+.tengo_cuenta:hover{
+  color: goldenrod;
+  background-color: white;
+}
 .left-navbar a,
 .right-navbar a {
   display: block;
