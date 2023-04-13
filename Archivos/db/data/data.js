@@ -3,83 +3,11 @@
             {
                 id: 1,
                 nombre:'Checo', 
-                email:'nelson@gmail.com', 
+                email:'checo@gmail.com', 
                 password:'pepegrillo',
                 foto_de_perfil: 'https://via.placeholder.com/150',
                 dni: 9435223,
                 fecha_de_nacimiento: '2002-02-13'
-            },{
-                id: 2, 
-                nombre:'Max', 
-                email:'martin@gmail.com', 
-                password:'martin123',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 53432425,
-                fecha_de_nacimiento: '2003-04-22'
-            },{
-                id: 3, 
-                nombre:'Lando', 
-                email:'bauti@gmail.com', 
-                password:'bauti2345',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 3445634,
-                fecha_de_nacimiento: '2003-11-11'
-            },{
-                id: 4, 
-                nombre:'Hamilton', 
-                email:'juancho@gmail.com', 
-                password:'juanchito',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 45423634,
-                fecha_de_nacimiento: '2010-02-23'
-            },{
-                id: 5, 
-                nombre:'pepe', 
-                email:'pepito@gmail.com', 
-                password:'pepe123',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 9453456,
-                fecha_de_nacimiento: '2001-03-30'
-            },{
-                id: 6,
-                nombre:'ana', 
-                email:'anita@gmail.com', 
-                password:'anita234',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 4352328,
-                fecha_de_nacimiento: '1993-01-11'
-            },{
-                id: 7, 
-                nombre:'andrea', 
-                email:'andrea@gmail.com', 
-                password:'andrea7388',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 4656734,
-                fecha_de_nacimiento: '1982-02-04'
-            },{
-                id: 8,
-                nombre:'manuel', 
-                email:'manuel@gmail.com', 
-                password:'manuel2003',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 9456345,
-                fecha_de_nacimiento: '2003-06-16'
-            },{
-                id: 9,
-                nombre:'sofia', 
-                email:'sofia@gmail.com', 
-                password:'sofi939',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 25568540,
-                fecha_de_nacimiento: '2000-11-11'
-            },{ 
-                id: 10,
-                nombre:'gonzalo', 
-                email:'gonza@gmail.com', 
-                password:'gonzalito23',
-                foto_de_perfil:'https://via.placeholder.com/150',
-                dni: 58643205,
-                fecha_de_nacimiento: '2004-05-29'
             }
                 ],
         productos: [
@@ -165,7 +93,7 @@
                 foto_de_perfil:'/images/lando.jpg'  
              }, {
                 id:4,
-                nombre: 'felipe dominguez',
+                nombre: 'Hamilton',
                 comentario: 'Con este gano el octavo si o si',
                 foto_de_perfil:'/images/hamilton.jpg'  
              }, {
